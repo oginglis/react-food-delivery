@@ -1,0 +1,148 @@
+.navbar {
+  background-color: white;
+  position: fixed;
+  top:0;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.navbar-search {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#00CCBD;
+  height: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+}
+
+.navbar-searchbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  flex-grow: 1;
+}
+.navbar-searchbar input {
+  height: 20px;
+  flex-grow: 1;
+  min-width: 150px;
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.search-icon {
+  padding: 12px;
+  transition: all .5s ease;
+}
+.search-icon:hover {
+  transform: scale(1.1) rotate(20deg);
+}
+
+.navbar-basket {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.navbar-navitems-list {
+  margin: 0;
+  padding: 20px;
+}
+
+.navbar-navitems {
+  width: 800px;
+}
+.nav-list-item {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.nav-list-item:hover{
+  text-decoration: underline;
+}
+
+
+.drop-down-shop {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 10px;
+  top: -1px;
+  position: relative;
+}
+
+.shop-list-item {
+  margin-right: 30px;
+
+}
+
+.delivery-time {
+  white-space: nowrap;
+  margin: 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .delivery-time {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .navbar {
+    background-color: white;
+
+    padding: 10px;
+    width: 100%;
+    height: 140px;
+  }
+  .delivery-time {
+    display: none;
+  }
+  .navbar-navitems{
+    display: none;
+  }
+  .navbar-search {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#00CCBD;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar-searchbar {
+    width: 100%;
+    margin: 10px;
+  }
+  .navbar-basket {
+    display: none;
+  }
+
+  .site-title{
+    margin-top:10px;
+    margin-bottom: 0px;
+  }
+}
+
+

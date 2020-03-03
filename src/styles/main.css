@@ -1,0 +1,12 @@
+@import './nav.css';
+@import url("https://use.typekit.net/wxu0xmo.css");
+@import './sub_menu.css';
+
+body {
+  margin: 0;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #F9F7F4;
+  height: 200vh;
+}
