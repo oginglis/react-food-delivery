@@ -77,6 +77,13 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.nav-list-item:first-child {
+  display: inline;
+  list-style: none;
+  margin-left: 0px;
+  cursor: pointer;
+}
 .nav-list-item:hover{
   text-decoration: underline;
 }
@@ -105,12 +112,12 @@
   .delivery-time {
     display: none;
   }
-}
+  .sub-menus {
+    display: none;
+  }
 
-@media only screen and (max-width: 615px) {
   .navbar {
     background-color: white;
-
     padding: 10px;
     width: 100%;
     height: 140px;
@@ -118,9 +125,11 @@
   .delivery-time {
     display: none;
   }
+
   .navbar-navitems{
     display: none;
   }
+
   .navbar-search {
     position: relative;
     display: flex;
@@ -143,6 +152,14 @@
     margin-top:10px;
     margin-bottom: 0px;
   }
+
+  .sub-menus {
+    display: none;
+  }
+
+  .hamburger{
+    display: block !important;
+    height: 5px;
+    width: 10px;
+  }
 }
-
-

@@ -6,6 +6,8 @@ import Carousel from './components/carousel';
 
 import "./styles/main.css";
 
+import "./scripts/hamburger";
+
 const App = (props) => {
   return (
     <div>
