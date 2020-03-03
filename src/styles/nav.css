@@ -24,6 +24,7 @@
   align-items: center;
   white-space: nowrap;
   font-size: 25px;
+  cursor: pointer;
 }
 
 
@@ -55,6 +56,7 @@
 .navbar-basket {
   font-size: 20px;
   margin: 20px;
+  cursor: pointer;
 }
 
 .navbar-navitems-list {
@@ -95,6 +97,7 @@
   white-space: nowrap;
   margin: 0;
   font-size: 20px;
+  cursor: default;
 }
 
 @media only screen and (max-width: 841px) {
@@ -140,6 +143,7 @@
   .site-title{
     margin-top:10px;
     margin-bottom: 0px;
+    cursor: default;
   }
 
   .sub-menus {
