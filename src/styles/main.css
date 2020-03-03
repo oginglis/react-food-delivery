@@ -2,12 +2,36 @@
 @import url("https://use.typekit.net/wxu0xmo.css");
 @import './sub_menu.css';
 @import './hamburger.css';
+@import './carousel.css';
 
 body {
   margin: 0;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 600;
-  font-style: normal;
+  font-family: mrs-eaves,serif;
+  font-weight: 400;
+  font-style: italic;
   background-color: #F9F7F4;
   height: 200vh;
+}
+
+.menu-text {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lil {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sub {
+  font-family: mrs-eaves,serif;
+  font-style: italic;
+  font-size: 22px !important;
+}
+
+.strong-title {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-style: normal;
 }

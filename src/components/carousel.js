@@ -5,8 +5,7 @@ export default class Carousel extends Component {
 
   render(){
     return(
-      <div >
-        <h1>CAROUSEL</h1>
+      <div className="carousel-image-bg" >
       </div>
     )
   }

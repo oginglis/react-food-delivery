@@ -25,16 +25,19 @@
 .sub-menu-list-item {
   margin-bottom:6px;
   font-size: 13px;
+  cursor: pointer;
 }
 
 .sub-menus {
-  width: 100%;
+  width: 100vw;
   padding-left: 20px;
 }
 
 .sub-menu-title {
   margin-top: 0;
   font-size: 17px;
+  cursor: default;
+  color:#D06426;
 }
 
 @media only screen and (max-width: 1040px) {
@@ -50,12 +53,21 @@
     display: inline !important;
     height: 5px;
     width: 10px;
-    position: relative;
-    right: 100px;
+    position: absolute;
+    left: 0;
     transform: scale(0.5);
+    color: #D06426 !important;
   }
 }
 
 
+.sub-menus.isHidden {
+  display: none;
+}
 
+@media only screen and (min-width: 842px) {
+  .hamburger{
+    display: none !important ;
+  }
+}
 
