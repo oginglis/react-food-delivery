@@ -10,7 +10,7 @@ export default class Popout extends Component {
 
   render(){
     return(
-      <div className={ this.props.popoutActive ? 'popout-wrapper close-pop' : 'popout-wrapper'}>
+      <div className={ this.props.popoutActive ? 'popout-wrapper' : 'popout-wrapper close-pop'  }>
         <FontAwesomeIcon className="pop-exit" icon={faTimes} onClick={this.props.changePopoutState} />
         <ul className="popout-list">
           <li className='menu-text pop-item'>Home</li>

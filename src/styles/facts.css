@@ -1,0 +1,50 @@
+@media only screen and (max-width: 650px) {
+  .facts-section-wrapper {
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.facts-section-wrapper {
+  height: calc(400px - 20vw);
+  background-color: #F4E5DE;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.fact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #D06426;
+}
+
+.fact-icon {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.fact-text {
+  padding: 10px;
+  margin: 10px;
+}
+
+.fact-title{
+  margin: 0px;
+
+}
+
+.fact-paragraph {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+}

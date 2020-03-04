@@ -5,13 +5,15 @@
 @import './carousel.css';
 @import './popout.css';
 @import './darkener.css';
+@import './facts.css';
+@import './square_info.css';
 
 body {
   margin: 0;
   font-family: mrs-eaves,serif;
   font-weight: 400;
   font-style: italic;
-  background-color: #F9F7F4;
+  background-color: #F8F7F3;
   height: 200vh;
 }
 

@@ -5,17 +5,7 @@ import Submenu from './submenu';
 
 export default class Navbar extends Component {
   state = {
-    burgerActive: false,
     shopActive: false
-  }
-
-  handleBurgerClick = () => {
-    if (this.state.burgerActive) {
-      this.setState({ burgerActive: false });
-    } else {
-      this.setState({ burgerActive: true });
-    }
-    this.props.changePopoutState()
   }
 
   handleShopClick = () => {
@@ -31,7 +21,7 @@ export default class Navbar extends Component {
       <div className="navbar">
         <div className="navbar-search">
           <div className="navbar-logo">
-            <div className={this.state.burgerActive ? 'hamburger hamburger--collapse is-active' : 'hamburger hamburger--collapse'} onClick={this.handleBurgerClick}>
+            <div className={this.props.burgerActive ? 'hamburger hamburger--collapse is-active' : 'hamburger hamburger--collapse'} onClick={this.props.changePopoutState}>
               <div className="hamburger-box">
                 <div className="hamburger-inner"></div>
               </div>

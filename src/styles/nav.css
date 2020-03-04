@@ -1,5 +1,5 @@
 .navbar {
-  background-color: white;
+  background-color: #F8F7F3;
   position: fixed;
   top:0;
   width: 100%;
@@ -27,7 +27,6 @@
   font-size: 25px;
   cursor: pointer;
 }
-
 
 .navbar-searchbar {
   height: 100%;
@@ -85,7 +84,6 @@
   text-decoration: underline;
 }
 
-
 .drop-down-shop {
   margin-left: 5px;
   margin-right: 5px;
@@ -110,7 +108,7 @@
   }
 
   .navbar {
-    background-color: white;
+    background-color: #F8F7F3;
     padding: 10px;
     width: 100%;
     height: 140px;
