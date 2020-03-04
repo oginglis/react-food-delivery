@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
   .facts-section-wrapper {
     flex-direction: column;
     padding: 20px;
@@ -22,7 +22,6 @@
   align-items: center;
   justify-content: space-between;
   max-width: 250px;
-  padding: 10px;
   box-sizing: border-box;
   color: #D06426;
 }
@@ -34,7 +33,6 @@
 
 .fact-text {
   padding: 10px;
-  margin: 10px;
 }
 
 .fact-title{

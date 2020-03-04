@@ -4,17 +4,17 @@ import { faSearch, faShoppingBasket, faChevronDown} from '@fortawesome/free-soli
 import Submenu from './submenu';
 
 export default class Navbar extends Component {
-  state = {
-    shopActive: false
-  }
+  // state = {
+  //   shopActive: false
+  // }
 
-  handleShopClick = () => {
-    if (this.state.shopActive) {
-      this.setState({ shopActive: false });
-    } else {
-      this.setState({ shopActive: true });
-    }
-  }
+  // handleShopClick = () => {
+  //   if (this.state.shopActive) {
+  //     this.setState({ shopActive: false });
+  //   } else {
+  //     this.setState({ shopActive: true });
+  //   }
+  // }
 
   render() {
     return(
@@ -38,7 +38,7 @@ export default class Navbar extends Component {
         <div className="navbar-navitems">
           <ul className="navbar-navitems-list">
             <li className='nav-list-item menu-text'>Home</li>
-            <li className='nav-list-item menu-text' onClick={this.handleShopClick}>
+            <li className='nav-list-item menu-text' onClick={this.props.handleShopClick}>
               Shop
               <FontAwesomeIcon className="drop-down-shop" icon={faChevronDown} />
             </li>
@@ -48,14 +48,6 @@ export default class Navbar extends Component {
             <li className='nav-list-item menu-text'>Contact Us</li>
             <li className='nav-list-item menu-text'>Login</li>
           </ul>
-        </div>
-        <div className={this.state.shopActive ? 'sub-menus' : 'sub-menus isHidden'} >
-          <Submenu listItem={['All Essentials', 'Best Sellers', 'New In', 'All products']} subMenuTitle='Packaging Essentials' />
-          <Submenu listItem={['Burger / Chips solutions', 'Pizza boxes', 'Hot food - board', 'Hot food - plastic', 'Soup / hot liquid containers', 'Salad / hot liquid containers']} subMenuTitle='Type' />
-          <Submenu listItem={['Bowls and lids', 'Clamshells', 'Soup containers', 'Hot food boxes', 'Cutlery', 'Straws', 'Platters', 'View all']} subMenuTitle='Eco' />
-          <Submenu listItem={['American / Burgers', 'Pan-Asian', 'Italian / Pasta / Pizza', 'British', 'Mexican / Tacos', 'Middle-Eastern Food', 'View all']} subMenuTitle='Cuisine' />
-          <Submenu listItem={['Bags', 'Pizza Boxes', 'Greaseproof', 'Burger boxes']} subMenuTitle='Taste Branded' />
-          <Submenu listItem={['All products', 'Internal Signage', 'External Signage']} subMenuTitle='Signage' />
         </div>
       </div>
     )

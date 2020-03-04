@@ -29,25 +29,32 @@
 
 .sub-menus {
   width: 100vw;
-  padding-left: 20px;
   padding-bottom: 15px;
+  background-color: #F8F7F3;
+  position: fixed;
+  z-index: 400;
+  top: 0;
+  transform: translateY(160px);
+  padding-top: 5px;
+  padding-left: 50px;
+  transition: transform 1s ease;
 }
 
 .sub-menu-title {
   margin-top: 0;
   font-size: 17px;
-  cursor: default;
+  cursor: pointer;
   color:#D06426;
 }
 
 @media only screen and (max-width: 1040px) {
   .sub-menu-title {
-  margin-top: 0;
-  font-size: 10px;
+    margin-top: 0;
+    font-size: 10px;
   }
   .sub-menu-list-item {
-  margin-bottom:6px;
-  font-size: 10px;
+    margin-bottom:6px;
+    font-size: 10px;
   }
   .hamburger{
     display: inline !important;
@@ -61,7 +68,7 @@
 }
 
 .sub-menus.isHidden {
-  display: none;
+  transform: translateY(-160px);
 }
 
 @media only screen and (min-width: 842px) {
@@ -69,4 +76,8 @@
     display: none !important ;
   }
 }
-
+@media only screen and (max-width: 842px) {
+  .sub-menus {
+    transform: translateY(-160px);
+  }
+}
