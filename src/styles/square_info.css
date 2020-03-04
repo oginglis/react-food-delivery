@@ -35,6 +35,7 @@
   overflow: auto;
   white-space: wrap;
   text-overflow: ellipsis;
+  cursor: default;
 }
 
 .square-info-list-item {

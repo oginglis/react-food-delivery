@@ -7,6 +7,7 @@ import Popout from './components/popout';
 import Facts from './components/facts';
 import SquareInfo from './components/square_info';
 import Submenus from './components/submenus';
+import InfoBanner from './components/info_banner';
 
 import "./styles/main.css";
 
@@ -54,6 +55,7 @@ class App extends Component {
           <SquareInfo titleItem={this.state.squareInfoTitle[2]} listItem={this.state.squareInfoTitle} image={this.state.sqaureInfoImages[2]}/>
           <SquareInfo titleItem={this.state.squareInfoTitle[3]} listItem={this.state.squareInfoTitle} image={this.state.sqaureInfoImages[3]}/>
         </div>
+        <InfoBanner id="test"/>
       </div>
     )
   }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faShoppingBasket, faChevronDown} from '@fortawesome/free-solid-svg-icons'
-import Submenu from './submenu';
 
 export default class Navbar extends Component {
   // state = {
@@ -42,7 +41,7 @@ export default class Navbar extends Component {
               Shop
               <FontAwesomeIcon className="drop-down-shop" icon={faChevronDown} />
             </li>
-            <li className='nav-list-item menu-text'>Samples</li>
+            <li className='nav-list-item menu-text'><a>Samples</a></li>
             <li className='nav-list-item menu-text'>My Products</li>
             <li className='nav-list-item menu-text'>Helpful Hints</li>
             <li className='nav-list-item menu-text'>Contact Us</li>

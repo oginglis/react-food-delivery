@@ -27,6 +27,9 @@
   cursor: pointer;
 }
 
+.sub-menu-list-item:hover {
+  color: rgba(100,100,100);
+}
 .sub-menus {
   width: 100vw;
   padding-bottom: 15px;
