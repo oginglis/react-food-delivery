@@ -3,6 +3,8 @@
 @import './sub_menu.css';
 @import './hamburger.css';
 @import './carousel.css';
+@import './popout.css';
+@import './darkener.css';
 
 body {
   margin: 0;

@@ -6,6 +6,7 @@
   padding: 30px;
   box-sizing: border-box;
   padding-bottom: 10px;
+  z-index: 500;
 }
 
 .navbar-search {

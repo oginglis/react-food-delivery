@@ -15,6 +15,7 @@ export default class Navbar extends Component {
     } else {
       this.setState({ burgerActive: true });
     }
+    this.props.changePopoutState()
   }
 
   handleShopClick = () => {
