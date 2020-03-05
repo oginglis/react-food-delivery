@@ -8,6 +8,9 @@
 @import './facts.css';
 @import './square_info.css';
 @import './info_banner.css';
+@import './fact_banner.css';
+@import './info_banner_grid.css';
+@import './search_banner.css';
 
 body {
   margin: 0;

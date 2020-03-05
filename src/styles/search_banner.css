@@ -1,0 +1,42 @@
+.search-banner-wrapper {
+  height: 250px;
+  margin: 0px 30px 30px 30px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-banner-title {
+  color: #F4E5DE;
+  font-family: mrs-eaves,serif;
+  font-size: 50px;
+  font-style: italic;
+  margin: 0px;
+  font-weight: 400;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+}
+
+.search-banner-searchbar {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 50%;
+  color: #F4E5DE;
+}
+
+.search-banner-searchbar input {
+  height: 20px;
+  flex-grow: 1;
+  min-width: 150px;
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 10px;
+  margin: 10px;
+}
+
+

@@ -1,0 +1,23 @@
+.fact-banner-wrapper {
+  height: 150px;
+  margin: 0px 30px 30px 30px;
+  background-color: #D06426;
+  color: #F8F7F3;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.fact-banner-title {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform .5s ease;
+}
+
+.fact-banner-title:hover {
+  transform: translateX(20px);
+}

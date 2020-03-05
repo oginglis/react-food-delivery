@@ -1,0 +1,59 @@
+.info-banner-grid-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-banner-grid-one .info-banner-title {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.info-banner-grid-one .info-banner-wrapper:first-child{
+  margin-right: 0px
+}
+
+
+@media only screen and (max-width: 700px) {
+  .info-banner-grid-one {
+    grid-template-columns: 1fr;
+  }
+  .info-banner-grid-one .info-banner-wrapper:first-child{
+    margin-right: 30px;
+  }
+}
+
+.info-banner-grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info-banner-grid-two .info-banner-title {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.info-banner-grid-two .info-banner-wrapper:not(:last-child){
+  margin-right: 0px
+}
+
+@media only screen and (max-width: 700px) {
+  .info-banner-grid-two {
+    grid-template-columns: 1fr;
+  }
+  .info-banner-grid-two .info-banner-wrapper:not(:last-child){
+    margin-right: 30px;
+
+  }
+  .info-banner-grid-two .info-banner-wrapper {
+    height: 150px;
+    margin: 10px 30px 10px 30px;
+  }
+}
+
+.info-banner-grid-two .info-banner-paragraph {
+  font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+}

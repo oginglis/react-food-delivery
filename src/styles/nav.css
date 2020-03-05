@@ -48,6 +48,7 @@
 .search-icon {
   padding: 12px;
   cursor: pointer;
+  color:#D06426; ;
   transition: all .5s ease;
 }
 .search-icon:hover {
