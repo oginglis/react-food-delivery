@@ -10,6 +10,7 @@ import Submenus from './components/submenus';
 import InfoBanner from './components/info_banner';
 import FactBanner from './components/fact_banner';
 import SearchBanner from './components/search_banner';
+import Footer from './components/footer';
 
 import "./styles/main.css";
 
@@ -69,6 +70,7 @@ class App extends Component {
           <InfoBanner extraText="Any questions you have about our service, we'll do our best to answer."  bannerTitle="hassle-free, stress-free" bgImage="https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"/>
         </div>
         <SearchBanner bgImage="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80" />
+        <Footer/>
       </div>
     )
   }

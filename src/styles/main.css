@@ -11,6 +11,7 @@
 @import './fact_banner.css';
 @import './info_banner_grid.css';
 @import './search_banner.css';
+@import './footer.css';
 
 body {
   margin: 0;
