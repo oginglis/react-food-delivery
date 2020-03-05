@@ -1,7 +1,7 @@
 .footer-wrapper {
 
   background-color: #D06426;
-  padding: 30px;
+  padding: 20px 50px 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 .site-title-footer {
   color: #F4E5DE;
   font-size: 50px;
-  margin: 0px;
+  margin: 20px 0px 0px 0px;
 
 }
 
@@ -20,7 +20,7 @@
   flex-grow: 1;
   color: #F4E5DE;
 }
-.footer-section-title{}
+
 .footer-section-list{
   list-style: none;
   padding: 0px;
@@ -50,5 +50,9 @@
     display: grid;
     grid-template-columns: 1fr ;
     grid-column-gap: 20px
+  }
+
+  .footer-section-wrapper {
+    border-bottom: 1px solid rgba(247,158,116,0.3);
   }
 }
