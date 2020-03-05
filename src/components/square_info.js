@@ -5,14 +5,13 @@ export default class SquareInfo extends Component {
   }
   render(){
     return(
-      <div className="square-info-wrapper">
+      <div className="square-info-wrapper" id="products">
         <img className="square-info-image" src={this.props.image} alt=""/>
         <div className="square-info-text">
           <h2 className="square-info-title">{this.props.titleItem}</h2>
           <ul className="square-info-list">
             {this.props.listItem.map((item) => {
-              console.log(item)
-              return <li className="square-info-list-item">{item}</li>
+              return <li className="square-info-list-item" key={item}>{item}</li>
             })}
           </ul>
         </div>

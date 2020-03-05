@@ -12,6 +12,7 @@ export default class Carousel extends Component {
         naturalSlideHeight={60}
         totalSlides={3}
         isPlaying={true}
+        id="carousel"
       >
         <Slider className="slider-black-wrapper">
           <Slide index={0} className="carousel-image-bg-one">

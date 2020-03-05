@@ -8,11 +8,11 @@ const SearchBanner = (props) => {
   }
 
   return(
-    <div className="search-banner-wrapper" style={styles}>
+    <div className="search-banner-wrapper" style={styles} id="search-banner">
       <h1 className="search-banner-title">now go and find what you need...</h1>
       <div className="search-banner-searchbar">
         <input type="text" name="search" placeholder="What are you looking for?" autoComplete="off"/>
-        <label htmlFor="search"><FontAwesomeIcon className="search-banner-search-icon" icon={faSearch} /></label>
+        <label htmlFor="search"><FontAwesomeIcon className="search-banner-search-icon" icon={faSearch} onClick={props.toggleModalActive}/></label>
       </div>
     </div>
   )

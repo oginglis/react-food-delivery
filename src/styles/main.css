@@ -12,6 +12,7 @@
 @import './info_banner_grid.css';
 @import './search_banner.css';
 @import './footer.css';
+@import './modal.css';
 
 body {
   margin: 0;

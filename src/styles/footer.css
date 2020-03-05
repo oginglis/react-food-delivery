@@ -13,7 +13,13 @@
   color: #F4E5DE;
   font-size: 50px;
   margin: 20px 0px 0px 0px;
+  transform-origin: left;
+  transition: transform 1s ease;
+}
 
+.site-title-footer:hover {
+  transform: scale(1.03);
+  cursor: pointer;
 }
 
 .footer-section-wrapper {
@@ -27,10 +33,15 @@
 
 }
 .footer-section-list-item{
-   line-height:25px
+  line-height:25px;
+  transition: transform .5s ease;
 
 }
 
+.footer-section-list-item:hover{
+  transform: translateX(5px);
+  cursor: pointer;
+}
 .footer-all-section-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -55,4 +66,12 @@
   .footer-section-wrapper {
     border-bottom: 1px solid rgba(247,158,116,0.3);
   }
+}
+
+.footer-sign-up {
+  cursor: pointer;
+}
+
+.site-title-footer-linked {
+  color: #F4E5DE;
 }

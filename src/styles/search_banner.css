@@ -19,6 +19,7 @@
   padding: 10px;
   width: 70%;
   text-align: center;
+  cursor: default;
 }
 
 .search-banner-searchbar {
@@ -27,6 +28,7 @@
   margin: 20px;
   width: 50%;
   color: #F4E5DE;
+  cursor: pointer;
 }
 
 .search-banner-searchbar input {
@@ -39,4 +41,7 @@
   margin: 10px;
 }
 
+.search-banner-search-icon {
+  cursor: pointer;
+}
 
